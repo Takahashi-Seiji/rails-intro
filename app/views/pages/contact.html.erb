@@ -1,0 +1,11 @@
+<h1>HELLO FROM CONTACT PAGE</h1>
+
+<p>Today is: <%= Time.now %></p>
+
+<%= link_to "Home", home_path %>
+
+<ol>
+  <% @members.each do |member| %>
+  <li><%= member %></li>
+  <% end %>
+</ol>
